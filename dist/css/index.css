@@ -1,0 +1,71 @@
+.left {
+  position: absolute;
+  width: 98%;
+  left: 0; }
+  .left .header-box {
+    height: 80px;
+    background: #9e1122; }
+    .left .header-box #header-top {
+      width: 1200px;
+      margin: 0 auto; }
+  .left .header-nav {
+    height: 30px;
+    line-height: 30px;
+    background: #f8f8f8;
+    border-bottom: 1px solid #666; }
+    .left .header-nav .nav-box {
+      width: 1200px;
+      margin: 0 auto; }
+      .left .header-nav .nav-box .nav-left {
+        float: left; }
+        .left .header-nav .nav-box .nav-left li:nth-child(1) ul {
+          display: none; }
+          .left .header-nav .nav-box .nav-left li:nth-child(1) ul li {
+            clear: both; }
+      .left .header-nav .nav-box .nav-right {
+        float: right; }
+      .left .header-nav .nav-box li {
+        float: left;
+        padding: 0 20px 0 10px; }
+        .left .header-nav .nav-box li:hover a {
+          color: #f5004b; }
+      .left .header-nav .nav-box a {
+        font: 400 12px/30px Arial,"Microsoft YaHei";
+        color: #5e5e5e; }
+        .left .header-nav .nav-box a span {
+          font-size: 15px;
+          color: #f5004b;
+          position: relative;
+          top: 1px; }
+        .left .header-nav .nav-box a:hover {
+          text-decoration: none; }
+      .left .header-nav .nav-box i {
+        font-size: 7px;
+        color: #5e5e5e; }
+  .left .logo .logo-box {
+    width: 1200px;
+    height: 120px;
+    line-height: 120px;
+    margin: 0 auto;
+    position: relative; }
+    .left .logo .logo-box .logo-left {
+      position: absolute;
+      left: 0;
+      top: 30px; }
+      .left .logo .logo-box .logo-left a {
+        float: left; }
+      .left .logo .logo-box .logo-left a:first-child {
+        margin-right: 20px; }
+    .left .logo .logo-box .logo-center {
+      position: relative;
+      left: 350px;
+      height: 32px;
+      width: 500px;
+      border: 1px solid #dd00a7; }
+
+.right {
+  position: fixed;
+  height: 100%;
+  width: 2%;
+  right: 0;
+  background: #999; }

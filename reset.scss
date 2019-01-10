@@ -1,0 +1,22 @@
+@charset "utf-8";
+html,body,h1,h2,h3,h4,h5,h6,ul,ol,li,dl,dt,dd,div,fieldset,form,legend,img,p,figure{
+	margin:0;padding:0;font-weight:normal;
+}
+img{
+	display:block;
+}
+img,fieldset{
+	border:0;
+}
+a{
+	text-decoration:none;
+}
+ul,ol,li{
+	list-style:none;
+}
+b,strong,i,em{
+	font-style:normal;font-weight:normal;
+}
+.clear:after{
+	content:"";clear:both;display: block;overflow:hidden;visibility: hidden;height:0;
+}
